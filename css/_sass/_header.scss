@@ -1,0 +1,28 @@
+.header {
+  background:linear-gradient(to right, transparent, black),url(../img/hannah-troupe-349131-unsplash.jpg);
+  background-size: cover;
+  height: 100vh;
+}
+
+nav ul {
+        list-style: none;
+        float: left;
+        text-transform: uppercase;
+        position: fixed;
+        background-color: rgba(232, 232, 232, 0.31);
+        height: 100%;
+        width: 12%;
+
+        li{
+          line-height: 150px;
+          font-size: 28px;
+          letter-spacing: 1px;
+        }
+}
+
+.title h1{
+  text-transform: uppercase;
+  font-size: 65px;
+  position: relative;
+  color: rgb(26, 147, 1);
+}
