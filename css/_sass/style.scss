@@ -2,3 +2,14 @@
 @import "about";
 @import "races";
 @import "contact";
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans Condensed', sans-serif;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}

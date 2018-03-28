@@ -1,28 +1,79 @@
-.header {
-  background:linear-gradient(to right, transparent, black),url(../img/hannah-troupe-349131-unsplash.jpg);
+header {
+  background:url(../img/hannah-troupe-349131-unsplash.jpg);
   background-size: cover;
   height: 100vh;
 }
 
-nav ul {
-        list-style: none;
-        float: left;
-        text-transform: uppercase;
-        position: fixed;
-        background-color: rgba(232, 232, 232, 0.31);
-        height: 100%;
-        width: 12%;
-
-        li{
-          line-height: 150px;
-          font-size: 28px;
-          letter-spacing: 1px;
-        }
+.row {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
-.title h1{
+nav {
+  list-style: none;
+
+
+        ul {
+          float: right;
+          margin-top: 40px;
+        }
+
+
+        li{
+          font-size: 40px;
+          font-weight: 700;
+          letter-spacing: 1px;
+          font-family: 'Amatic SC', cursive;
+          display: inline-block;
+          text-transform: uppercase;
+          margin-left: 40px;
+          padding-left: 20px;
+
+           a{
+             color:rgb(26, 147, 1);
+             background-color: #333;
+             border-radius: 10px 10px 10px;
+             padding: 0 9px;
+            }
+            a:hover{
+              color: #333;
+              text-decoration: none;
+              background-color:rgb(26, 147, 1);
+              transition: all 1s;
+              border-radius: 9px 9px 9px;
+
+            }
+        }
+
+
+    }
+
+.logo {
+      height: 100px;
+      float: left;
+      margin-top: 20px;
+    }
+
+
+
+
+      h1{
   text-transform: uppercase;
   font-size: 65px;
   position: relative;
   color: rgb(26, 147, 1);
+  font-family: 'Righteous', cursive;
+  }
+
+
+.text-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1140px;
+  p {
+    color: #eee;
+    font-size: 20px;
+  }
 }
