@@ -4,16 +4,18 @@
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700|Open+Sans+Condensed:300,300i,700|Righteous" rel="stylesheet">
     <link rel="stylesheet" href="css/jquery.fullPage.css">
-    <link rel="stylesheet" href="css/fa-svg-with-js.css">
+    <link rel="stylesheet" href="css/lity.css">
     <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+
     <title>Les chats || Trop choupi</title>
 
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.fullPage.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script src="js/particles.js"></script>
+    <script src="js/lity.js"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/main.js"></script>
 
@@ -21,13 +23,13 @@
 
   <body>
     <div id="fullpage">
-
+      <!--Debut header-->
       <div class="section active " id="header">
 
           <header>
 
             <!--Navigation-->
-              <nav>
+              <nav class="navbar">
                 <div class="row">
                   <img class="logo" src="img/astronaut_munchkin_cat_gif_by_audthentic-d6hvzcv.gif" alt="chat gif" />
                   <ul>
@@ -47,10 +49,13 @@
 
           </header>
       </div>
+      <!--Fin header-->
 
 
+<!--Debut About-->
       <div class="section">
         <section class="about" id="about">
+          <!--Debut titre-->
           <div class="container">
             <div class="row">
               <div class="col-md-10 col-md-offset-1">
@@ -61,58 +66,92 @@
               </div>
             </div>
           </div>
+          <!--Fin titre-->
 
-          <div class="about-wrapper">
+          <!--Debut du chat-->
             <div class="container">
               <div class="row">
 
-
-                <div class="col-md-4">
+                <!--Gauche de l'image-->
+                <div class="col-md-4 col-xs-4">
 
                   <div class="left-about">
+                    <div class="icon-svg">
+                      <i class="fas fa-long-arrow-alt-right"></i>
+                    </div>
                     <h3>Les tchoupi oreilles</h3>
                   </div>
 
                   <div class="left-about">
+                    <div class="icon-svg">
+                      <i class="fas fa-long-arrow-alt-right"></i>
+                    </div>
                     <h3>Les poils</h3>
                   </div>
 
                   <div class="left-about">
+                    <div class="icon-svg">
+                      <i class="fas fa-long-arrow-alt-right"></i>
+                    </div>
                     <h3>Les patounettes</h3>
                   </div>
 
                 </div>
-
+                <!--Fin gauche de l'image-->
 
                 <!--image-->
-                <div class="col-md-4">
+                <div class="col-md-4 col-xs-4">
                   <div class="chat">
-                    <img class="img-responsive" src="img/Cat-about.png" alt="chat" />
+                  <a href="https://www.youtube.com/watch?v=tdxOhLGqTxM" data-lity><img class="img-responsive" src="img/Cat-about.png" alt="chat" /></a>
                   </div>
                 </div>
                 <!--Fin image -->
 
-
-                <div class="col-md-4">
+                <!--Droite de l'image-->
+                <div class="col-md-4 col-xs-4">
 
                   <div class="right-about">
+                    <div class="icon-svg">
+                      <i class="fas fa-arrows-alt-h"></i>
+                    </div>
                     <h3>Les calins</h3>
                   </div>
 
                   <div class="right-about">
+                    <div class="icon-svg">
+                      <i class="fas fa-arrows-alt-h"></i>
+                    </div>
                     <h3>Les ronrons</h3>
                   </div>
 
                   <div class="right-about">
+                    <div class="icon-svg">
+                      <i class="fas fa-arrows-alt-h"></i>
+                    </div>
                     <h3>Les bisous</h3>
                   </div>
 
                 </div>
+                <!--Fin Droite de l'image-->
+              </div>
+            </div>
+          <!--Fin du chat-->
 
-
+          <!--Debut dessous image-->
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <div class="section-clic">
+                  <div class="icon-clic">
+                  <i class="fas fa-angle-double-up"></i>
+                  </div>
+                  <h2>Appuye sur le chat trop beau</h2>
+                </div>
               </div>
             </div>
           </div>
+          <!--Fin fin dessous image-->
+
         </section>
       </div>
 
@@ -126,7 +165,7 @@
 
       <div class="section">
         <section class="contact" id="contact">
-          <div class="particles-js"></div>
+
         </section>
       </div>
 
