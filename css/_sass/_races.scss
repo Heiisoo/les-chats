@@ -3,3 +3,78 @@
   height: 100vh;
   background-size: cover;
 }
+
+.section-races {
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+.section-races h2 {
+  position: relative;
+  text-align: center;
+  color: #eee;
+  font-size: 30px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.section-races h2::after {
+  content:"";
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  width: 60px;
+  height: 1px;
+  background-color: #a77c0d;
+  margin-left: -30px;
+}
+
+.section-races p {
+  color: #eee;
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 300;
+  text-align: center;
+  margin-top: 45px;
+}
+
+.carousel-indicators {
+  bottom: 10px;
+  color: red;
+  position: absolute;
+  top: 63%;
+}
+
+.carousel-inner .item {
+  padding-bottom: 185px;
+
+       img {
+        border: 2px solid #a77c0d;
+        border-radius: 50%;
+        padding: 3px;
+      }
+}
+.testimonial-caption {
+  padding-bottom: 70px;
+}
+
+.testimonial-caption h3 {
+  color: #a77c0d;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 45px;
+  margin-top: 25px;
+}
+
+.testimonial-caption p {
+  color: #D8D8D8;
+  font-size: 18px;
+  line-height: 17px;
+  padding-bottom: 150px;
+}
+
+.testimonial-overlay {
+  background-color: rgba(84, 84, 84, 0.25);
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
