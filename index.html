@@ -20,7 +20,14 @@
     <script defer src="https://use.fontawesome.com/releases/v5.0.9/js/all.js" integrity="sha384-8iPTk2s/jMVj81dnzb/iFR2sdA7u06vHJyyLlAd4snFpCl/SnyUjRrbdJsw1pGIl" crossorigin="anonymous"></script>
     <script src="js/wow.min.js"></script>
     <script src="js/main.js"></script>
-
+    <script>
+          wow = new WOW(
+                   {
+                   boxClass:     'wow',      // default
+                   animateClass: 'animated', // default
+                 })
+                 new WOW().init();
+    </script>
   </head>
 
   <body>
@@ -31,7 +38,7 @@
           <header>
 
             <!--Navigation-->
-              <nav class="navbar">
+              <nav class="navbar wow slideInDown">
                 <div class="row">
                   <img class="logo" src="img/astronaut_munchkin_cat_gif_by_audthentic-d6hvzcv.gif" alt="chat gif" />
                   <ul>
@@ -44,7 +51,7 @@
               </nav> <!--Fin Navbar -->
 
 
-            <div class="text-box">
+            <div class="text-box wow fadeIn">
               <h1>Les chats</h1>
               <p>Petit site sur les félins domestique qui sont tellement mignon.</p>
             </div>
@@ -61,7 +68,7 @@
           <div class="container">
             <div class="row">
               <div class="col-md-10 col-md-offset-1">
-                <div class="section-title">
+                <div class="section-title wow slideInleft" data-wow-duration="1s" data-wow-delay=".5s">
                   <h2>A propos</h2>
                   <p>Les chats les chats les chats les chats les chats les chats les chats les chats les chats les chats les chats les chats les chats les chats les chats </p>
                 </div>
@@ -143,11 +150,11 @@
           <div class="container">
             <div class="row">
               <div class="col-md-10 col-md-offset-1">
-                <div class="section-clic">
-                  <div class="icon-clic">
+                <div class="section-clic animated pulse infinite">
+                  <div class="icon-clic ">
                   <i class="fas fa-angle-double-up"></i>
                   </div>
-                  <h2>Appuye sur le chat trop beau</h2>
+                  <h2>Appuie sur le chat trop beau</h2>
                 </div>
               </div>
             </div>
@@ -223,6 +230,8 @@
         </div>
       <!--Fin section Races-->
 
+
+      <!--Debut section Contact-->
       <div class="section">
         <section class="contact" id="contact">
           <!--Debut titre-->
@@ -237,9 +246,41 @@
             </div>
           </div>
           <!--Fin titre-->
+
+          <div class="contact">
+            <div class="container">
+              <div class="form">
+                <div class="row">
+                  <div class="col-md-4">
+                    <input type="text" class="form-control" id="name" placeholder="Nom" />
+                    <input type="email" class="form-control" id="email" placeholder="Email" />
+                    <input type="text" class="form-control" id="subject" placeholder="Sujet" />
+                  </div>
+
+                    <div class="col-md-8">
+                    <textarea class="form-control" id="message" rows="25" cols="10" placeholder="Message Tchoupi"></textarea>
+                    <button type="button" class="btn btn-default submit-btn form-submit">ENVOYER</button>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--Debut bouton-->
+          <div class="container">
+            <div class="row">
+                <div class="section-contact animated pulse infinite">
+                  <a href="#header"><img src="img/cat-up.png" alt="chat pouce" width="15%" /></a>
+                  <p>Pour remonter appuie sur le chat !</p>
+              </div>
+            </div>
+          </div>
+          <!--Fin bouton-->
+
         </section>
       </div>
-
+      <!--Fin de la section Contact-->
 
 
     </div>

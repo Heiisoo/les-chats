@@ -13,9 +13,3 @@ $(document).ready(function(){
       slideMargin: 50
   });
 });
-
-$(document).ready(function() {
-   'use strict';
-   new WOW().init();
-
- })
